@@ -48,4 +48,25 @@ section {
             }
         }
     }
+    .listDL {
+        width: 100%;
+        height: pxTorem(150px);
+        @include box_flex;
+        @include flexWrap;
+        margin-top: pxTorem(10px);
+        dl {
+            width: 20%;
+            height: 50%;
+            @include box_flex;
+            @include align;
+            @include justify;
+            @include direction(column);
+            dt {
+                img {
+                    width: pxTorem(50px);
+                    height: pxTorem(50px);
+                }
+            }
+        }
+    }
 }
