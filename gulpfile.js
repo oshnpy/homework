@@ -5,3 +5,6 @@ gulp.task("scssMin", function() {
         .pipe(sass())
         .pipe(gulp.dest("./css/"))
 })
+gulp.task("watch", function() {
+    gulp.watch("./scss/index.scss", gulp.series("scssMin"))
+})

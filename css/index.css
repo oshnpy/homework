@@ -167,3 +167,61 @@ textarea {
 }*/
 html {
   font-size: 37.5px; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 1.33333rem;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0 0.26667rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #53AB3A; }
+  header span {
+    font-size: 0.42667rem;
+    color: #fff; }
+    header span img {
+      width: 0.8rem;
+      height: 0.8rem; }
+
+section {
+  width: 100%;
+  height: 80%;
+  background: #ccc;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+  section .banner {
+    width: 100%;
+    height: 3.2rem; }
+    section .banner .swiper-wrapper {
+      width: 100%;
+      height: 100%; }
+      section .banner .swiper-wrapper .swiper-slide {
+        width: 100%;
+        height: 100%; }
+        section .banner .swiper-wrapper .swiper-slide img {
+          width: 100%;
+          height: 100%; }

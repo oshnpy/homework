@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 
 <body>
@@ -18,9 +20,15 @@
         <section>
             <div class="swiper-container banner">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide">
+                        <img src="img/imager2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imager3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imager4.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="listDL"></div>
@@ -31,5 +39,12 @@
         </section>
     </div>
 </body>
+<script src="js/swiper.min.js"></script>
+<script src="js/flexible.js"></script>
+<script>
+    var Swiper1 = new Swiper(".banner", {
+
+    })
+</script>
 
 </html>
