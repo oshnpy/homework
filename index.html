@@ -75,17 +75,53 @@
 
             </div>
             <div class="listAll">
-                <div class="listF"></div>
-                <ul class="listS"></ul>
+                <div class="box">
+                    <div class="listF">
+                        <span>全部城市</span>
+                        <span>全部城市</span>
+                        <span>全部城市</span>
+                    </div>
+                    <ul class="listS">
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="img/dl2.png" alt="">
+                                </dt>
+                                <dd>
+                                    <h2>镇北堡西部影城</h2>
+                                    <span>4.5分</span>
+                                    <b>距市中心4.4公里</b>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>
+                                    <img src="img/dl2.png" alt="">
+                                </dt>
+                                <dd>
+                                    <h2>镇北堡西部影城</h2>
+                                    <span>4.5分</span>
+                                    <b>距市中心4.4公里</b>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </section>
     </div>
 </body>
 <script src="js/swiper.min.js"></script>
 <script src="js/flexible.js"></script>
+<script src="js/better-scroll.js"></script>
 <script>
     var Swiper1 = new Swiper(".banner", {
 
+    })
+    var BScroll = new BScroll(".listAll", {
+        probeType: 2
     })
 </script>
 
